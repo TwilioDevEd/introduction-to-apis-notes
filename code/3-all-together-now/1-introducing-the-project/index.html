@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+    />
+    <style>
+      body {
+        font-family: "Open Sans", sans-serif;
+        margin: 5%;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.13"></script>
+    <script src="https://unpkg.com/vue-silentbox@2.3.1/dist/vue-silentbox.min.js"></script>
+    <title>Pick.le: Pick your pics 🥒</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Pick.le: Pick your pics 🥒</h1>
+      <h2>{{ callToAction }}</h2>
+      <silent-box :gallery="gallery"></silent-box>
+    </div>
+
+    <script>
+      Vue.use(VueSilentbox.default);
+      const app = new Vue({
+        el: "#app",
+        data() {
+          return {
+            callToAction: "Submit your photos of kittehs!",
+            gallery: [],
+          };
+        },
+        methods: {
+          async loadImages() {
+            // TODO: Use the Messaging API to use submitted photos
+            // const response = await fetch("/api/")
+            // TODO: Create a web-based API that matches this expected response
+            this.gallery = [
+              {
+                src: "https://placekitten.com/200/300",
+                description: "Look at this kitteh",
+                alt: "A kitteh",
+                thumbnailWidth: "200px",
+              },
+              {
+                src: "https://placekitten.com/300/300",
+                description: "Another Kitteh",
+                alt: "Cutie",
+                thumbnailWidth: "200px",
+              },
+            ];
+          },
+        },
+        mounted() {
+          this.loadImages();
+        },
+      });
+    </script>
+  </body>
+</html>
