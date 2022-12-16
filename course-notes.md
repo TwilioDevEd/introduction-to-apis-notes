@@ -149,7 +149,7 @@ npm install twilio
 
 ## Unit 3 - Using APIs
 
-In this unit, we'll build 
+In this unit, we'll build a single page application that makes use of a client side framework and it's APIs. We'll create a server side API to feed our application, and reshape data from a public Web API. That's a lot of APIs!
 
 ### Video 1 - Introducing the project
 
