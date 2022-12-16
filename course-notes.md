@@ -161,6 +161,7 @@ npm install twilio
 
 - [Serverless Computing - Wikipedia](https://en.wikipedia.org/wiki/Serverless_computing)
 - [Serverless on Twilio](https://www.twilio.com/en-us/serverless)
+- 🍿 [Understanding Webhooks - freeCodeCamp - YouTube](https://youtu.be/41NOoEz3Tzc)
 
 ### Video 3 - Writing a Server Side API
 
@@ -186,7 +187,3 @@ Please text `FEEDBACK` to me at [(432) 527-4274](tel:+14325274274) and let me kn
 [@craigsdennis](https://twitter.com/craigsdennis)
 
 PS. If you want to keep on learning for free, I can't recommend [the video game TwilioQuest 🎮](https://twilio.com/quest?utm_source=gh-link&utm_medium=referral&utm_campaign=intro-to-apis) enough.
-
-#### 📚 - Learn more
-
-* [📹 Understanding Webhooks on freeCodeCamp](https://www.youtube.com/watch?v=41NOoEz3Tzc) is a course I made about reverse APIs, APIs that call you instead of you calling them. Come hang out some more!
