@@ -74,8 +74,7 @@ In this unit, we'll do some hands-on exploring of a couple of popular APIs.
 
 ### Video 2 - Using an API from the command line
 
-- 🍿 [What is the terminal and why should I use it? - Developer Fundamentals
- - YouTube](https://youtu.be/lZ7Kix9bjPI)
+- 🍿 [What is the terminal and why should I use it? - Developer Fundamentals - YouTube](https://youtu.be/lZ7Kix9bjPI)
 
 #### Installing cURL
 
@@ -109,7 +108,7 @@ Remove-Item alias:curl
 
 ### Video 3 - You Go Curl
 
-- [Twilio](https://www.twilio.com/try-twilio)
+- 🙌 [Twilio - Signup](https://www.twilio.com/try-twilio)
 - [Twilio Console](https://twilio.com/console?utm_source=gh-link&utm_medium=referral&utm_campaign=intro-to-apis)
 - 📚 [Create a Message - Twilio Docs](https://www.twilio.com/docs/sms/api/message-resource?code-sample=code-create-a-message&code-language=curl&code-sdk-version=json)
 
@@ -149,6 +148,8 @@ npm install twilio
 ```
 
 ## Unit 3 - Using APIs
+
+In this unit, we'll build 
 
 ### Video 1 - Introducing the project
 
