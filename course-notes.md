@@ -35,7 +35,8 @@ Don't worry about understanding these, however, appreciate their complexity
 #### Learn more
 
 - 📚 [Web APIs - MDN](https://developer.mozilla.org/en-US/docs/Web/API)
-- [Google vs. Oracle on the rights to the Java API - The Verge](https://www.theverge.com/2019/11/15/20946398/oracle-google-java-copyright-lawsuit-trial-supreme-court-request)
+- 📰 [Google vs. Oracle on the rights to the Java API - The Verge](https://www.theverge.com/2019/11/15/20946398/oracle-google-java-copyright-lawsuit-trial-supreme-court-request)
+- 
 
 ### Video 4 - Remote APIs
 
@@ -50,7 +51,7 @@ Don't worry about understanding these, however, appreciate their complexity
 ### Video 5 - How the web works
 
 - [HTTP - Wikipedia](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
-- [How the Web Works - MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+- 📚 [How the Web Works - MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 
 ### Video 6 - RESTful API Constraint Scavenger Hunt
 
@@ -102,15 +103,16 @@ Remove-Item alias:curl
 
 #### Learn More
 
+- 📚 [Command Line for Beginners – How to Use the Terminal Like a Pro - freeCodeCamp](https://www.freecodecamp.org/news/command-line-for-beginners/)
 - Check out the [jq tutorial](https://stedolan.github.io/jq/tutorial/) for parsing JSON on the command line
 - [cURL manpage](https://curl.haxx.se/docs/manpage.html)
 - [POST (HTTP) - Wikipedia](https://en.wikipedia.org/wiki/POST_(HTTP)) (For info on `form-urlencoded` search for "Use for submitting web forms")
 
 ### Video 3 - You Go Curl
 
-- 🙌 [Twilio - Signup](https://www.twilio.com/try-twilio)
+- 🙌 [Twilio - Signup](https://www.twilio.com/try-twilio?utm_campaign=youtube-dev-acq-to--int&utm_source=youtube&utm_medium=dev&utm_content=fcc-api&utm_term=twiliodevs)
 - [Twilio Console](https://twilio.com/console?utm_source=gh-link&utm_medium=referral&utm_campaign=intro-to-apis)
-- 📚 [Create a Message - Twilio Docs](https://www.twilio.com/docs/sms/api/message-resource?code-sample=code-create-a-message&code-language=curl&code-sdk-version=json)
+- 📚 [Create a Message - Twilio Docs](https://www.twilio.com/docs/sms/api/message-resource?code-sample=code-create-a-message&code-language=curl&code-sdk-version=json&utm_campaign=youtube-dev-acq-to--int&utm_source=youtube&utm_medium=dev&utm_content=fcc-api&utm_term=twiliodevs)
 
 The Twilio `Messages` API URL is:
 
@@ -122,6 +124,7 @@ Make sure to replace that `SID` with your Account SID which can be found in the 
 
 ### Video 4 - Using Tools to Explore APIs
 
+- 💡 [Govee Aura Smart Table Lamp](https://us.govee.com/products/aura-table-lamp)
 - ⬇️ [RestFox (REST API Client)](https://restfox.dev)
 
 ### Video 5 - More tools for your API Exploring Toolbox
@@ -137,14 +140,22 @@ Make sure to replace that `SID` with your Account SID which can be found in the 
 ### Video 6 - Using Helper Libraries 
 
 - 🍿 [What is the file system and why should I learn about it? - Developer Fundamentals - YouTube](https://youtu.be/2zLQwOiIac8)
+- [Command Line Interface - VSCode](https://code.visualstudio.com/docs/editor/command-line)
 - ⬇️ [Install Node.js (JavaScript runtime)](https://nodejs.org/en/download/)
 - 📚 [Promise - mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 - 📚 [Async / Await - mdn](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
 
-To use the [Twilio Node Helper Library](https://www.twilio.com/docs/libraries/node#installation)
+To use the [Twilio Node Helper Library](https://www.twilio.com/docs/libraries/node?utm_campaign=youtube-dev-acq-to--int&utm_source=youtube&utm_medium=dev&utm_content=fcc-api&utm_term=twiliodevs#installation)
 
 ```bash
 npm install twilio
+```
+
+**Windows**
+Make a directory named `scratch`
+
+```bash
+mkdir scratch
 ```
 
 ## Unit 3 - Using APIs
@@ -153,15 +164,23 @@ In this unit, we'll build a single page application that makes use of a client s
 
 ### Video 1 - Introducing the project
 
-- 🍿 [What do tutorials mean when they say my shell? - Developer Fundamentals - YouTube](https://youtu.be/fhv2dX0axeY)
+- 🍿 [What do tutorials mean when they say my shell? - Developer Fundamentals - YouTube](https://youtu.be/fhv2dX0axeY?utm_campaign=youtube-dev-acq-to--int&utm_source=youtube&utm_medium=dev&utm_content=fcc-api&utm_term=twiliodevs)
 - 👩‍💻 [The code (index.html)](./code/3-all-together-now/1-introducing-the-project/index.html)
 - [Vue.js - Front-end JavaScript Framework](https://vuejs.org)
 - [Vue SilentBox Plugin](https://github.com/silencesys/silentbox)
 
+**Windows**
+To open an HTML file in your default browser from the command line:
+
+```bash
+start .\index.html
+```
+
 ### Video 2 - Serverless
 
+- 👩‍💻 [The code (/incoming-message)](code/3-all-together-now/2-serverless/incoming-message.js)
 - [Serverless Computing - Wikipedia](https://en.wikipedia.org/wiki/Serverless_computing)
-- [Serverless on Twilio](https://www.twilio.com/en-us/serverless)
+- [Serverless on Twilio](https://www.twilio.com/en-us/serverless?utm_campaign=youtube-dev-acq-to--int&utm_source=youtube&utm_medium=dev&utm_content=fcc-api&utm_term=twiliodevs)
 - 🍿 [Understanding Webhooks - freeCodeCamp - YouTube](https://youtu.be/41NOoEz3Tzc)
 
 ### Video 3 - Writing a Server Side API
@@ -175,11 +194,12 @@ In this unit, we'll build a single page application that makes use of a client s
 - 👩‍💻 [The updated code (index.html)](./code/3-all-together-now/4-fetching-results-on-the-client/index.html)
 - 📚 [fetch API - mdn](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 - 🏅 [REST Architectural Constraints - Scavenger Hunt PRIZE!](https://en.wikipedia.org/wiki/Representational_state_transfer#Architectural_constraints)
-- 🍿 [Learn Twilio Messaging, Voice, and Serverless (Full Course!)](https://youtu.be/4jUMqutYmyE)
-  
+- 🍿 [Learn Twilio Messaging, Voice, and Serverless (Full Course!)](https://youtu.be/4jUMqutYmyE?utm_campaign=youtube-dev-acq-to--int&utm_source=youtube&utm_medium=dev&utm_content=fcc-api&utm_term=twiliodevs)
+- 
+
 ### Video 5 - Wrap Up
 
-I built a little Twilio application using [Studio](https://www.twilio.com/docs/studio?utm_source=gh-link&utm_medium=referral&utm_campaign=intro-to-apis) and some APIs to gather your feedback.
+I built a little Twilio application using [Studio](https://www.twilio.com/docs/studio?utm_campaign=youtube-dev-acq-to--int&utm_source=youtube&utm_medium=dev&utm_content=fcc-api&utm_term=twiliodevs) and some APIs to gather your feedback.
 
 Please text `FEEDBACK` to me at [(432) 527-4274](tel:+14325274274) and let me know what you thought about this course! (You can also call if that's your jam)
 
@@ -187,4 +207,4 @@ Please text `FEEDBACK` to me at [(432) 527-4274](tel:+14325274274) and let me kn
 
 [@craigsdennis](https://twitter.com/craigsdennis)
 
-PS. If you want to keep on learning for free, I can't recommend [the video game TwilioQuest 🎮](https://twilio.com/quest?utm_source=gh-link&utm_medium=referral&utm_campaign=intro-to-apis) enough.
+PS. If you want to keep on learning for free, I can't recommend [the video game TwilioQuest 🎮](https://twilio.com/quest?utm_campaign=youtube-dev-acq-to--int&utm_source=youtube&utm_medium=dev&utm_content=fcc-api&utm_term=twiliodevs) enough.
