@@ -4,6 +4,8 @@
 
 Hello and welcome to this free course on Application Programming Interfaces, or APIs.
 
+[![Watch the video on freeCodeCamp](https://img.youtube.com/vi/WXsD0ZgxjRw/maxresdefault.jpg)](https://youtu.be/WXsD0ZgxjRw)
+
 ## Important links
 
 * [Course notes](./course-notes.md)
