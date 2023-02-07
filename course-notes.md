@@ -15,8 +15,9 @@ In this unit we'll define what an API, or Application Programming Interface, is 
 
 #### Designing API Content
 
-- 🍿[What exactly is an API - ProgrammableWeb 101](https://www.youtube.com/watch?v=cpRcK4GS068&list=PLcgRuP1JhcBP8Kh0MC53GH_pxqfOhTVLa)
-- 📚[API Guide - moesif](https://www.moesif.com/blog/api-guide/)
+- 📚 [REST API Design Best Practices - freeCodeCamp](https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/)
+- 🍿 [What exactly is an API - ProgrammableWeb 101](https://www.youtube.com/watch?v=cpRcK4GS068&list=PLcgRuP1JhcBP8Kh0MC53GH_pxqfOhTVLa)
+- 📚 [API Guide - moesif](https://www.moesif.com/blog/api-guide/)
 
 ### Video 2 - Defining Interface
 
