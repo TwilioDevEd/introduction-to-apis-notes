@@ -144,6 +144,7 @@ Make sure to replace that `SID` with your Account SID which can be found in the 
 - ⬇️ [Install Node.js (JavaScript runtime)](https://nodejs.org/en/download/)
 - 📚 [Promise - mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 - 📚 [Async / Await - mdn](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
+- 🍿 [What is my System Path? - Developer Fundamentals - YouTube](https://youtu.be/43zdpmEu4lE?utm_campaign=youtube-dev-acq-to--int&utm_source=youtube&utm_medium=dev&utm_content=fcc-api&utm_term=twiliodevs)
 
 To use the [Twilio Node Helper Library](https://www.twilio.com/docs/libraries/node?utm_campaign=youtube-dev-acq-to--int&utm_source=youtube&utm_medium=dev&utm_content=fcc-api&utm_term=twiliodevs#installation)
 
