@@ -131,6 +131,7 @@ Make sure to replace that `SID` with your Account SID which can be found in the 
 ### Video 5 - More tools for your API Exploring Toolbox
 - ⬇️ [Visual Studio Code (code editor)](https://code.visualstudio.com)
 - ⬇️ [Thunder Client for VS Code](https://www.thunderclient.com/)
+- 🎓🆓 [Postman Student Expert Certification Program](https://bit.ly/postman-student-expert-fcc)
 - 🍿 [Postman Webinars](https://www.postman.com/webinars/)
 - ⬇️ Many wonderful API Collections can be downloaded for exploration in the [Postman API Network](https://postman.com/explore)
 
