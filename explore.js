@@ -5,6 +5,17 @@ const accountSid = process.env.TWILIO_ACCOUNT_SID;
 const authToken = process.env.TWILIO_AUTH_TOKEN;
 const client = require('twilio')(accountSid, authToken);
 
-client.messages.list({limit: 20})
-               .then(messages => messages.forEach(m => console.log(m.sid)));
-console.log('gathering log')
+// client.messages.list({limit: 20})
+//                .then(messages => messages.forEach(m => console.log(m.sid)));
+// console.log('gathering log')
+
+async function delteAllMessages(){
+    const messages = await client.messages.list()
+    for(message of messages){
+        console.warn(`would have dleted ${message.sid}`)
+    }
+    console.log('starting pgm')
+    deleteAllMessages()
+        .then(() => console.log("Done"))
+        .catch((err) => {err})
+}
