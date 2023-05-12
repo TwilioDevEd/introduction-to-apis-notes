@@ -71,7 +71,6 @@ In this unit, we'll do some hands-on exploring of a couple of popular APIs.
 
 #### Explore
 
-- ProgrammableWeb provides [a categorized directory of APIs](https://www.programmableweb.com/category-api). 
 - API List provides [categories and a powerful search feature](https://apilist.fun/).
 
 ### Video 2 - Using an API from the command line
